@@ -14,6 +14,7 @@ public class Resta extends javax.swing.JFrame {
     /**
      * Creates new form Resta
      */
+    //hola nancy
     public Resta() {
         initComponents();
     }
