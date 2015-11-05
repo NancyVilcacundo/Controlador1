@@ -20,6 +20,7 @@ public class Suma extends javax.swing.JFrame {
     }
     
     public void factorial(){
+    //prueba
         int num = Integer.valueOf(numero.getText());
         int acu=1;
         for(int i=1;i<=num;i++){
