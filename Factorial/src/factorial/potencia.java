@@ -46,9 +46,9 @@ public void poten(){
 
         jLabel1.setText("POTENCIA");
 
-        jLabel2.setText("NUMERO1");
+        jLabel2.setText("BASE");
 
-        jLabel3.setText("NUMERO2");
+        jLabel3.setText("EXPONENTE");
 
         jLabel4.setText("RESPUESTA");
 
@@ -75,9 +75,9 @@ public void poten(){
                 .addGap(43, 43, 43)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel3)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(v2)
                     .addComponent(v1)
