@@ -59,6 +59,12 @@ public void poten(){
             }
         });
 
+        v1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                v1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -113,6 +119,12 @@ public void poten(){
         // TODO add your handling code here:
         poten();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void v1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v1ActionPerformed
+        // TODO add your handling code here:
+        
+        //COMENTARIOS
+    }//GEN-LAST:event_v1ActionPerformed
 
     /**
      * @param args the command line arguments
