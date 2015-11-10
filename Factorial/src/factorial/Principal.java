@@ -125,6 +125,7 @@ public class Principal extends javax.swing.JFrame{
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Resta r = new Resta();
         jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
         jDesktopPane1.add(r);
         r.show();
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -132,6 +133,7 @@ public class Principal extends javax.swing.JFrame{
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         factorial1 f = new factorial1();
         jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
         jDesktopPane1.add(f);
         f.show();
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -139,6 +141,7 @@ public class Principal extends javax.swing.JFrame{
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         potencia p = new potencia();
         jDesktopPane1.removeAll();
+        jDesktopPane1.repaint();
         jDesktopPane1.add(p);
         p.show();
     }//GEN-LAST:event_jButton3ActionPerformed
@@ -148,6 +151,7 @@ public class Principal extends javax.swing.JFrame{
         Suma s=new Suma();
         jDesktopPane1.removeAll();
         jDesktopPane1.add(s);
+        jDesktopPane1.repaint();
         s.setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
 
