@@ -16,7 +16,7 @@ public class Principal extends javax.swing.JFrame {
      */
     public Principal() {
         initComponents();
-        jDesktopPane1.setBorder(new Fondo());   
+        jDesktopPane1.setBorder(new Fondo());
     }
 
     /**
