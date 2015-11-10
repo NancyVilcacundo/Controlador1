@@ -12,6 +12,6 @@ package factorial;
 public class DesarrolloVilcacundo {
     public static void main(String[] args) {
         
-        System.out.println("hola como estan?");
+        System.out.print("hola como estan?");
     }
 }
