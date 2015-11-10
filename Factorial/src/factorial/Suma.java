@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author Erick
  */
-public class Suma extends javax.swing.JFrame {
+public class Suma extends javax.swing.JInternalFrame{
 
     /**
      * Creates new form Suma
