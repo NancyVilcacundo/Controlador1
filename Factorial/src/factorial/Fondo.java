@@ -7,8 +7,9 @@ package factorial;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import javax.swing.border.Border;
 
 public class Fondo implements Border{
@@ -18,7 +19,8 @@ public class Fondo implements Border{
         try {
             URL imagePath = new URL(getClass().getResource("/imagen/fondo.jpg").toString());
             fon = ImageIO.read(imagePath);
-        } catch (Exception ex) {            
+        } catch (Exception ex) {
+            Logger.getLogger(cargarImagen.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

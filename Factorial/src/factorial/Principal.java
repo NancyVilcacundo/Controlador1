@@ -15,8 +15,7 @@ public class Principal extends javax.swing.JFrame {
      * Creates new form Principal
      */
     public Principal() {
-        initComponents();
-        jDesktopPane1.setVisible(true);
+        initComponents();        
         jDesktopPane1.setBorder(new Fondo());
     }
 
