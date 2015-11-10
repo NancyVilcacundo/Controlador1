@@ -45,7 +45,7 @@ public class factorial1 extends javax.swing.JInternalFrame {
         res = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel2.setText("Numero");
 
@@ -53,7 +53,7 @@ public class factorial1 extends javax.swing.JInternalFrame {
 
         jLabel3.setText("Respuesta");
 
-        jButton2.setText("jButton2");
+        jButton2.setText("Calcular");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
