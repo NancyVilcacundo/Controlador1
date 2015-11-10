@@ -10,6 +10,6 @@ package factorial;
  * @author Erick
  */
 public class DesarrolloGamboa {
-    //hola compañeros como están?
-    //HOla
+    //hola compañeros que tal las clases?
+    //Hola
 }
