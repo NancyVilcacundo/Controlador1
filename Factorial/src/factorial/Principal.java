@@ -9,7 +9,7 @@ package factorial;
  *
  * @author Andrés
  */
-public class Principal extends javax.swing.JFrame {
+public class Principal extends javax.swing.JInternalFrame{
 
     /**
      * Creates new form Principal
