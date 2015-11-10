@@ -10,7 +10,7 @@ package factorial;
  *
  * @author Rolando
  */
-public class factorial1 extends javax.swing.JFrame {
+public class factorial1 extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form factorial1

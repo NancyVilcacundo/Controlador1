@@ -9,7 +9,7 @@ package factorial;
  *
  * @author HP
  */
-public class Resta extends javax.swing.JFrame {
+public class Resta extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form Resta
@@ -47,8 +47,6 @@ public class Resta extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         txtres = new javax.swing.JTextField();
         restar = new javax.swing.JButton();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("Resta");
 
