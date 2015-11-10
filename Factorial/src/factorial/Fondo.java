@@ -12,18 +12,18 @@ import javax.swing.*;
 import javax.swing.border.Border;
 
 public class Fondo implements Border{
-    BufferedImage back;
+    BufferedImage fon;
  
     public Fondo(){
         try {
             URL imagePath = new URL(getClass().getResource("/imagen/fondo.jpg").toString());
-            back = ImageIO.read(imagePath);
+            fon = ImageIO.read(imagePath);
         } catch (Exception ex) {            
         }
     }
 
     public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
-        g.drawImage(back, (x + (width - back.getWidth())/2),(y + (height - back.getHeight())/2), null);
+        g.drawImage(fon, (x + (width - fon.getWidth())/2),(y + (height - fon.getHeight())/2), null);
     }
  
     public Insets getBorderInsets(Component c) {
